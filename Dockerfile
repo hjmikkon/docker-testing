@@ -1,4 +1,4 @@
-FROM williamyeh/ansible:centos6
+FROM williamyeh/ansible:centos6-onbuild
 
 ADD ansible /srv/example
 WORKDIR /srv/example
